@@ -12,14 +12,15 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "2349066528353";
+  : "2348140825959";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
   "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg,https://telegra.ph/file/7275967ae7b5283fada69.jpg";
 global.userImages =
   process.env.USER_IMAGES ||
-  "https://telegra.ph/file/7275967ae7b5283fada69.jpg,https://telegra.ph/file/c3049cd3ac77f371e119e.jpg,https://telegra.ph/file/a22200a780671e0e32383.jpg,https://telegra.ph/file/85fe388fdd14930cf86a0.jpg,https://telegra.ph/file/ba9ced500f9eca7db8acb.mp4";
+
+  "https://telegra.ph/file/e5d98c92bd291ef30f68e.png,https://telegra.ph/file/00c3701c235a6df1dba76.png,https://telegra.ph/file/2fc766ab7467ded0fac9c.png,https://telegra.ph/file/2fc766ab7467ded0fac9c.png"https://telegra.ph/file/2fc766ab7467ded0fac9c.png;
 ///===========[global iMPORTS]====================//
 
 module.exports = {
@@ -27,11 +28,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`©QUEEN_ANITA-V2`",
-  author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
-  packname: process.env.PACK_NAME || "A N I T A",
-  botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
-  ownername: process.env.OWNER_NAME || "David Cyril",
+  caption: process.env.CAPTION || "`©BAD_BOI-V2`",
+  author: process.env.PACK_AUTHER || "BAD_BOI-V2",
+  packname: process.env.PACK_NAME || "H A C K E R",
+  botname: process.env.BOT_NAME || "BAD_BOI-V2",
+  ownername: process.env.OWNER_NAME || "BADBOI HACKER",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
